@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ferritemod:ferrite"
+  ],
+  "result": {
+    "id": "ferritemod:ferrite_fragment",
+    "count": 1
+  }
+}

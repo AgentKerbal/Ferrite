@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "ferritemod",
+	"version": "${version}",
+	"name": "Ferrite Mod",
+	"description": "First Mod rev2",
+	"authors": [
+		"AgentKerbal"
+	],
+	"contact": {
+		"homepage": "https://x.com/agntkrbl",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ferritemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kerbal.ferritemod.FerriteMod"
+		],
+		"client": [
+			"com.kerbal.ferritemod.FerriteModClient"
+		],
+		"fabric-datagen": [
+			"com.kerbal.ferritemod.FerriteModDataGenerator"
+		]
+	},
+	"mixins": [
+		"ferritemod.mixins.json",
+		{
+			"config": "ferritemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.09",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
