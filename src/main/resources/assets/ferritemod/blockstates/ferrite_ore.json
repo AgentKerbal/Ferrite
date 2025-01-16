@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ferritemod:block/ferrite_ore"
+    }
+  }
+}

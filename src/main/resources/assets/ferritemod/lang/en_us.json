@@ -1,5 +1,6 @@
 {
   "item.ferritemod.ferrite": "Ferrite",
   "item.ferritemod.raw_ferrite_fragment": "Raw Ferrite Fragment",
-  "item.ferritemod.ferrite_fragment": "Ferrite Fragment"
+  "item.ferritemod.ferrite_fragment": "Ferrite Fragment",
+  "block.ferritemod.ferrite_ore": "Ferrite Ore"
 }

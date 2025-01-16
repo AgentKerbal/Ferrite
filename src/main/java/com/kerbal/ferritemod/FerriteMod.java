@@ -20,5 +20,6 @@ public class FerriteMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }
