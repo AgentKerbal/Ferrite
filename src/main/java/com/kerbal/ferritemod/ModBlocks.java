@@ -3,6 +3,8 @@ package com.kerbal.ferritemod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -42,7 +44,7 @@ public class ModBlocks {
             Identifier.of(FerriteMod.MOD_ID, "ferrite_ore")
     );
     public static final Block FERRITE_ORE = register(
-            new Block(AbstractBlock.Settings.create().registryKey(FERRITE_ORE_KEY).sounds(BlockSoundGroup.STONE).requiresTool().strength(3f)),
+            new Block(Block.Settings.create().strength(3f, 3f).requiresTool().mapColor(MapColor.STONE_GRAY).registryKey(FERRITE_ORE_KEY).sounds(BlockSoundGroup.STONE)),
             FERRITE_ORE_KEY,
             true
     );
